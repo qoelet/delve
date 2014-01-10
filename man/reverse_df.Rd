@@ -8,5 +8,5 @@ reverse_df(df)
     \item{df}{dataframe}
 }
 \description{
-Inverts a give dataframe and returns it. Motivated by the data pull off Quandl
+Inverts a give dataframe and returns it.
 }
