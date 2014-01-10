@@ -6,5 +6,7 @@ Maintainer: Kenny Shen <kenny@northpole.sg>
 Description: Collection of tools and functions to assist in data mining and reporting.
 Depends:
     R (>= 2.14.1)
+Imports:
+    robustbase
 License: GPL (>= 2)
 URL: http://northpole.sg/delve

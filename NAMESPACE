@@ -1,5 +1,6 @@
 export(reverse_df)
 export(hampel_id)
 export(esd)
-import(ggplot2)
-import(plyr)
+export(boxplot_detect)
+export(boxplot_extended_detect)
+import(robustbase)
