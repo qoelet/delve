@@ -1,4 +1,5 @@
 export(reverse_df)
 export(hampel_id)
+export(esd)
 import(ggplot2)
 import(plyr)

@@ -10,3 +10,13 @@ hampel_id = function(df, x, threshold = 3) {
     res <- df[df[[x]] > upper | df[[x]] < lower,]
     return(res)
 }
+
+# Extreme Studentized deviation
+esd = function(df, x, threshold = 3) {
+	x_mean <- mean(df[[x]], na.rm=TRUE)
+	x_sd <- sd(df[[x]], na.rm=TRUE)
+	lower <- x_mean - (threshold * x_sd)
+	upper <- x_mean + (threshold * x_sd)
+	res <- df[df[[x]] > upper | df[[x]] < lower,]
+    return(res)
+}

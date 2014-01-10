@@ -1,9 +1,9 @@
 # delve
 
-Tools that are useful in day to day data mining and un-munging tasks, largely drawn from my daily handling of marketing data at my day job (for a large fashion startup), as well as my self-study of statistics and data science at night.
+Collection of tools and functions to assist in data mining and reporting.
 
 You can try it out by
 
-	install.packages("delve")
+	$ R CMD INSTALL /path/to/delve
 
 Feedback welcomed at kenny[at]northpole[dot].sg
