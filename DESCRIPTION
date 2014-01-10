@@ -1,0 +1,16 @@
+Package: delve
+Title: Tools for data mining
+Version: 1.0.0
+Author: Kenny Shen <kenny@northpole.sg>
+Maintainer: Kenny Shen <kenny@northpole.sg>
+Description: Tools that are useful in day to day data mining and un-munging tasks, 
+    largely drawn from my daily handling of marketing data at my day job 
+    (for a large fashion startup), as well as my self-study of statistics and data
+    science at night.
+Depends:
+    R (>= 2.14.1)
+Imports:
+    ggplot2,
+    plyr
+License: GPL (>= 2)
+URL: http://northpole.sg/delve
