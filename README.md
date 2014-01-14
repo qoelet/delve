@@ -1,5 +1,7 @@
 # delve
 
+[![Build Status](https://travis-ci.org/qoelet/delve.png?branch=master)](https://travis-ci.org/qoelet/delve)
+
 Collection of tools and functions to assist in data mining and reporting.
 
 You can try it out using [devtools](https://github.com/hadley/devtools) from within R
