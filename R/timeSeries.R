@@ -6,6 +6,6 @@ dp = function(x) {
     print("Mean:")
     print(mean(d))
     print("Interval:")
-    print(mean(d) + c(-2,2) * (sd(d)/sqrt(length(d))))
-    return(mean(d))
+    print(mean(d, na.rm=TRUE) + c(-2,2) * (sd(d, na.rm=TRUE)/sqrt(length(d))))
+    return(mean(d, na.rm=TRUE))
 }
