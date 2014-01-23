@@ -7,5 +7,5 @@ dp = function(x) {
     print(mean(d))
     print("Interval:")
     print(mean(d) + c(-2,2) * (sd(d)/sqrt(length(d))))
-    return(d)
+    return(mean(d))
 }
